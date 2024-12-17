@@ -1,0 +1,308 @@
+.parent {
+   background-color:rgb(153, 2, 177);
+   width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+     padding: 10px;
+    }
+
+ .parent div{
+    margin: 10px;
+ width:100px ;
+ height: 150px;
+ }
+
+.item1{
+  background-color: aliceblue;
+  
+ }
+.item2{
+    background-color: aliceblue;
+  
+   }
+.item3{
+    background-color: aliceblue;
+    
+ }
+.item4{
+    background-color: aliceblue;
+ }
+ /*................................task2....................*/
+ .main1{
+    border: solid black 1px;
+    height: 600px;
+    
+ }
+.bb{
+   border: solid black 1px;
+   height: 40px;
+   display: flex;
+   flex-direction: row-reverse;
+   padding: 10px;
+   border-radius: solid red 5px;
+
+}
+/*..................................task3.................*/
+.main2{
+   border: solid cornflowerblue 4px;
+   border-radius:  15px;
+   height: 300px;
+   width: 300px;
+   display:flex;
+   justify-content: center;
+}
+.cen{
+   background-color: cornflowerblue;
+   padding: 15px;
+   margin: 100px;
+   font-size:15px ;
+}
+/*..........................task4...........................*/
+.main3{
+   display: flex;
+   justify-content: space-evenly 2px;
+}
+.main3 div{
+   background-color: cornflowerblue;
+   height: 200px;
+   border: solid beige 2px;
+   border-radius: 10px;
+   flex-basis:200px;
+}
+/*................................task5...................*/
+#main5{
+   display: flex;
+   
+   flex-wrap: wrap;
+   width: 500px;
+}
+#main5 div{
+   background-color: blueviolet;
+   border: solid 2px rgb(212, 183, 240);
+   border-radius: 5px;
+   margin: 10px;
+}
+#5{
+   flex-grow: 3;
+}
+#4{
+
+   flex-grow: 2;
+}
+#5{
+   flex-grow: 6;
+}
+/*........................................task6..........................*/
+.main6{
+   border: solid orange 3px;
+   width: 1000px;
+   height:800px;
+   display: flex;
+   align-items: flex-start;
+   align-items: stretch;
+  
+   
+   flex-direction:row;
+
+}
+.main6 div{
+   font-size: 40px;
+   
+   
+}
+.gr1{
+   background-color: blue;
+   flex-shrink:10;
+   align-self: flex-start;
+}
+.gr2{
+   background-color: rgb(247, 0, 255);
+   align-self: flex-start;
+}
+.gr3{
+   background-color: rgb(255, 0, 0);align-self: flex-start;
+}
+.gr4{
+   background-color: rgb(204, 255, 0);
+   
+}
+.gr5{
+   background-color: rgb(0, 255, 251);
+   align-self:center;
+    flex-shrink:20;
+  
+}
+.gr6{
+   background-color: rgb(255, 145, 0);
+   align-self: flex-start;
+}
+.gr7{
+   background-color: rgb(0, 255, 26);
+   align-self: flex-start;
+}
+.gr8{
+   background-color: rgb(157, 0, 255);
+   align-self: flex-start;
+}
+.gr9{
+   background-color: rgb(137, 173, 230);
+   align-self: flex-start;
+}
+.gr10{
+   background-color: rgb(127, 96, 2);
+   align-self: flex-end;
+}
+/*........................task7......................*/
+
+.main7{
+   border: solid orange 3px;
+   width: 1000px;
+   height:1300px;
+   display: flex;
+   flex-direction: row wrap;
+   flex-flow: column;
+   align-items: stretch;
+  
+
+}
+.main7 div{
+   font-size: 40px;
+   text-align: center;
+   
+   
+}
+.br1{
+   background-color: blue;
+  
+}
+.br2{
+   background-color: rgb(247, 0, 255);
+} 
+.br3{
+   background-color:red;
+
+}
+.br4{
+   background-color: rgb(204, 255, 0);
+}
+.br5{
+   background-color: rgb(0, 255, 251);
+}
+.br6{
+   background-color: rgb(255, 145, 0);
+   
+}
+.br7{
+   background-color: rgb(0, 255, 26);
+  
+}
+.br8{
+   background-color: rgb(157, 0, 255);
+   
+}
+.br9{
+   background-color: rgb(137, 173, 230);
+   
+}
+.br10{
+   background-color: rgb(127, 96, 2);
+}
+/*.............................task8......................*/
+.main8{
+display: flex;
+flex-direction: row;
+width: 300px;
+}
+
+.ee1{
+   background-color: aquamarine;
+   flex-grow: 9;
+   align-self: flex-start;
+    text-align:center ;
+}
+.ee2{
+   background-color: burlywood;
+   flex-grow:5 ;
+   text-align:center ;
+
+}
+/*................................task9.........................*/
+.main9{
+   display: flex;
+   width: 500px;
+   height: 400px;
+   flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+
+  
+
+
+}
+.main9 div{
+   width: 100px;
+   text-align: center;
+   margin: 3px;
+  
+   
+}
+.oo1{
+   background-color: blue;
+  
+}
+.oo2{
+   background-color: rgb(247, 0, 255);
+} 
+.oo3{
+   background-color:red;
+
+}
+.oo4{
+   background-color: rgb(204, 255, 0);
+}
+.oo5{
+   background-color: rgb(0, 255, 251);
+}
+.oo6{
+   background-color: rgb(255, 145, 0);
+   
+}
+.oo7{
+   background-color: rgb(0, 255, 26);
+  
+}
+.oo8{
+   background-color: rgb(157, 0, 255);
+   
+}
+.oo9{
+   background-color: rgb(137, 173, 230);
+   
+}
+.oo10{
+   background-color: rgb(127, 96, 2);
+}
+/*............................task10................*/
+.tt1{
+   border: solid 1px;
+   color: rgb(194, 188, 188);
+}
+
+.img{
+   padding: 40px;
+   text-align: center;
+   padding-top: 60px;
+
+}
+.tt2{
+   display: flex;
+   align-content: flex-end;
+   flex-direction:row ;
+   height: 300px;
+}
+.tt3{
+   background-color: rgb(182, 177, 177);
+   flex-grow: 10;
+   align-self: flex-end;
+}
