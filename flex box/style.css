@@ -13,19 +13,19 @@
  height: 150px;
  }
 
-.item1{
+.parent .item1{
   background-color: aliceblue;
   
  }
-.item2{
+ .parent .item2{
     background-color: aliceblue;
   
    }
-.item3{
+   .parent .item3{
     background-color: aliceblue;
     
  }
-.item4{
+ .parent .item4{
     background-color: aliceblue;
  }
  /*................................task2....................*/
@@ -108,7 +108,7 @@
 }
 .main6 div{
    font-size: 40px;
-   
+   height: 20px;
    
 }
 .gr1{
@@ -306,3 +306,131 @@ width: 300px;
    flex-grow: 10;
    align-self: flex-end;
 }
+/*.....................task11.........................*/
+
+
+.containermain {
+   
+   display: flex;
+   flex-direction: column;
+   height: 700px;
+   justify-content:space-evenly;
+   
+   
+}
+.containermain .one1{
+   display: flex;
+   height: 200px;
+     width: 100%;
+     border-radius: 3px;
+     justify-content: space-evenly;
+}
+.containermain .one1 div{
+background-color: rgb(223, 238, 246);
+width: 24%;
+border-radius: 10px;
+}
+
+.containermain .one1 .item2{
+   display: flex;
+   flex-flow: column wrap;
+   
+
+ 
+}
+.containermain .one1 .item2 .sub{
+   background-color: rgb(184, 183, 182);
+   height: 95px;
+   width: 178px;
+   margin: 2px;
+}
+
+.containermain .tow2{
+   display: flex;
+   height: 200px;
+  
+
+}
+.containermain .three3{
+   
+   display: flex;
+   height: 200px;
+   justify-content: space-evenly;
+}
+.containermain .one1 .item3{
+   display: flex;
+   flex-flow: column wrap;
+
+}
+.containermain .one1 .item3 .sub{
+   background-color: rgb(184, 183, 182);
+   height: 95px;
+   width: 178px;
+   margin: 2px;
+}
+.containermain .tow2{
+   display: flex;
+   height: 200px;
+  
+     width: 100%;
+     border-radius: 3px;
+     justify-content: space-evenly;
+}
+.containermain .tow2 div{
+   background-color: rgb(216, 236, 246);
+   width: 24%;
+   border-radius: 10px;
+   }
+   .containermain .tow2 .item6 .sub{
+      display: flex;
+      background-color: rgb(184, 183, 182);
+      height: 98px;
+      width: 360px;
+      margin: 2px;
+
+   }
+   .containermain .tow2 .item7 {
+      display: flex;
+     
+   
+   }
+   .containermain .tow2 .item7 .sub {
+      background-color: rgb(184, 183, 182);
+      width: 200px;
+      margin: 2px;
+      
+   }
+
+   .containermain .three3 div{
+      background-color: rgb(216, 236, 246);
+   width: 24%;
+   border-radius: 10px;
+
+   }
+   .containermain .three3 .item9 {
+      display: flex;
+      flex-flow: column wrap;
+   }
+  
+   .containermain .three3 .item9 .sub{
+      background-color: rgb(184, 183, 182);
+      height: 95px;
+      width: 178px;
+      margin: 2px;
+   }
+   .containermain .three3 .item12 {
+      display: flex;
+      flex-flow: column wrap;
+   }
+  
+   .containermain .three3 .item12 .sub{
+      background-color: rgb(184, 183, 182);
+      height: 95px;
+      width: 178px;
+      margin: 2px;
+   }
+
+
+
+
+  
